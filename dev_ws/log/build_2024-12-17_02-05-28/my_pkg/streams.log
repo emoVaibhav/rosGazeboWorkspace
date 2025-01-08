@@ -1,0 +1,41 @@
+[0.665s] Invoking command in '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build --no-deps symlink_data --force
+[0.829s] /home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.829s]   warnings.warn(
+[0.867s] running develop
+[0.987s] running egg_info
+[0.987s] writing my_pkg.egg-info/PKG-INFO
+[0.992s] writing dependency_links to my_pkg.egg-info/dependency_links.txt
+[0.993s] writing entry points to my_pkg.egg-info/entry_points.txt
+[0.993s] writing requirements to my_pkg.egg-info/requires.txt
+[0.993s] writing top-level names to my_pkg.egg-info/top_level.txt
+[0.994s] reading manifest file 'my_pkg.egg-info/SOURCES.txt'
+[0.995s] writing manifest file 'my_pkg.egg-info/SOURCES.txt'
+[0.996s] running build_ext
+[0.996s] Creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my-pkg.egg-link (link to .)
+[0.997s] Installing Car_control script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing add_client script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing add_service script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing frame_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing img_saver script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing my_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing param_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.997s] Installing pose_subscriber script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.998s] Installing static_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.998s] Installing talker script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.998s] Installing tf2_dist_calculator script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.998s] Installing tf2_listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.998s] 
+[0.998s] Installed /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg
+[0.998s] running symlink_data
+[0.998s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/resource/my_pkg -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index/packages
+[0.998s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/package.xml -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.998s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_subs.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/tf2_transform.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_event_handler.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/parameters_node_launcher.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/simple_car.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_main.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/description/worlds/car_world.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+[0.999s] symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/description/worlds/actors.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+[1.028s] Invoked command in '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg' returned '0': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build --no-deps symlink_data --force

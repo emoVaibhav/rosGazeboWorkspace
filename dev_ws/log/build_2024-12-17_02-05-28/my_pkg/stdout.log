@@ -1,0 +1,37 @@
+running develop
+running egg_info
+writing my_pkg.egg-info/PKG-INFO
+writing dependency_links to my_pkg.egg-info/dependency_links.txt
+writing entry points to my_pkg.egg-info/entry_points.txt
+writing requirements to my_pkg.egg-info/requires.txt
+writing top-level names to my_pkg.egg-info/top_level.txt
+reading manifest file 'my_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my-pkg.egg-link (link to .)
+Installing Car_control script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing add_client script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing add_service script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing frame_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing img_saver script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing my_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing param_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing pose_subscriber script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing static_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing talker script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing tf2_dist_calculator script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+Installing tf2_listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+
+Installed /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg
+running symlink_data
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/resource/my_pkg -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/package.xml -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_subs.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/tf2_transform.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_event_handler.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/parameters_node_launcher.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/simple_car.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/launch/talker_listener_main.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/description/worlds/car_world.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+symbolically linking /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/description/worlds/actors.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds

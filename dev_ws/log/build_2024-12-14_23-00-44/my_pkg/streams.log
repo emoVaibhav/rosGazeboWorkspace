@@ -1,0 +1,94 @@
+[0.523s] Invoking command in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build install --record /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log --install-scripts $base/lib/my_pkg --single-version-externally-managed install_data
+[0.693s] /home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.693s]   warnings.warn(
+[0.713s] running egg_info
+[0.714s] creating ../../build/my_pkg/my_pkg.egg-info
+[0.714s] writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO
+[0.714s] writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt
+[0.714s] writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt
+[0.714s] writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt
+[0.714s] writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt
+[0.714s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[0.716s] reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[0.716s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[0.716s] running build
+[0.716s] running build_py
+[0.717s] creating /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build
+[0.717s] creating /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib
+[0.717s] creating /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/tf2_dist_calculator.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/subscriber_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/service_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/publisher_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/img_saver.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/my_node.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/__init__.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.717s] copying my_pkg/pose_subscriber.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] copying my_pkg/frame_tf2_broadcaster.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] copying my_pkg/static_tf2_broadcaster.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] copying my_pkg/client_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] copying my_pkg/parameters_node.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] copying my_pkg/tf2_listener.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.718s] running install
+[0.718s] running install_lib
+[0.719s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/tf2_dist_calculator.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/subscriber_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/service_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/publisher_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/img_saver.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/my_node.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/__init__.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/pose_subscriber.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/frame_tf2_broadcaster.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/static_tf2_broadcaster.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/client_member_function.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/parameters_node.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.719s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/tf2_listener.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.720s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/tf2_dist_calculator.py to tf2_dist_calculator.cpython-310.pyc
+[0.720s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.721s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/service_member_function.py to service_member_function.cpython-310.pyc
+[0.721s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.721s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/img_saver.py to img_saver.cpython-310.pyc
+[0.721s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/my_node.py to my_node.cpython-310.pyc
+[0.722s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/__init__.py to __init__.cpython-310.pyc
+[0.722s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[0.722s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/frame_tf2_broadcaster.py to frame_tf2_broadcaster.cpython-310.pyc
+[0.722s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/static_tf2_broadcaster.py to static_tf2_broadcaster.cpython-310.pyc
+[0.723s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/client_member_function.py to client_member_function.cpython-310.pyc
+[0.723s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/parameters_node.py to parameters_node.cpython-310.pyc
+[0.723s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/tf2_listener.py to tf2_listener.cpython-310.pyc
+[0.723s] running install_data
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index/packages
+[0.724s] copying resource/my_pkg -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index/packages
+[0.724s] copying package.xml -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/talker_listener_subs.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/tf2_transform.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/talker_listener_event_handler.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/parameters_node_launcher.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/simple_car.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] copying launch/talker_listener_main.launch.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/partials
+[0.724s] creating /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+[0.724s] copying description/worlds/car_world.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+[0.724s] copying description/worlds/actors.sdf -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds
+[0.724s] running install_egg_info
+[0.726s] Copying ../../build/my_pkg/my_pkg.egg-info to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info
+[0.726s] running install_scripts
+[0.744s] Installing add_client script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing add_service script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing frame_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing img_saver script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing my_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing param_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing pose_subscriber script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing static_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing talker script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing tf2_dist_calculator script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.744s] Installing tf2_listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.745s] writing list of installed files to '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log'
+[0.768s] Invoked command in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg' returned '0': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build install --record /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log --install-scripts $base/lib/my_pkg --single-version-externally-managed install_data

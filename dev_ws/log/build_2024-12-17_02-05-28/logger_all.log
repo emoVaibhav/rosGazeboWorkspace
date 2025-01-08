@@ -1,0 +1,157 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75f79162a0b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f7915e10c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f7915e10c0>>, mixin_verb=('build',))
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vd/ros_gazebo_workspace/dev_ws'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pkg) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_pkg' with type 'ros.ament_python' and name 'my_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vd/ros_gazebo_workspace/dev_ws/install
+[0.381s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vd/ros2ws/install
+[0.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'my_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'my_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg', 'merge_install': False, 'path': '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.455s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg' with build type 'ament_python'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pkg', 'ament_prefix_path')
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.683s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/ament_index/resource_index/packages/my_pkg
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.xml
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/talker_listener_subs.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/tf2_transform.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/talker_listener_event_handler.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/parameters_node_launcher.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/simple_car.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/talker_listener_main.launch.py
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/partials
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds/car_world.sdf
+[1.118s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/description/worlds/actors.sdf
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/Car_control
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/add_client
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/add_service
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/frame_tf2_broadcaster
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/img_saver
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/listener
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/my_node
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/param_node
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/pose_subscriber
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/static_tf2_broadcaster
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/talker
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/tf2_dist_calculator
+[1.119s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg/tf2_listener
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build --no-deps symlink_data --force
+[1.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pkg', 'pythonpath_develop')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/share/my_pkg/hook/pythonpath_develop.ps1'
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg' returned '0': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build --no-deps symlink_data --force
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/share/my_pkg/hook/pythonpath_develop.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/share/my_pkg/hook/pythonpath_develop.sh'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg' for CMake module files
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg' for CMake config files
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/bin'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/pkgconfig/my_pkg.pc'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages'
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pkg', 'pythonpath')
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/pythonpath.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/pythonpath.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/hook/pythonpath.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/bin'
+[1.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pkg)
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/my_pkg/package.zsh'
+[1.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/share/colcon-core/packages/my_pkg)
+[1.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.500s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/ros_gazebo_workspace/dev_ws/install/local_setup.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vd/ros_gazebo_workspace/dev_ws/install/_local_setup_util_ps1.py'
+[1.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/ros_gazebo_workspace/dev_ws/install/setup.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/ros_gazebo_workspace/dev_ws/install/local_setup.sh'
+[1.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vd/ros_gazebo_workspace/dev_ws/install/_local_setup_util_sh.py'
+[1.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/ros_gazebo_workspace/dev_ws/install/setup.sh'
+[1.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/ros_gazebo_workspace/dev_ws/install/local_setup.bash'
+[1.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/ros_gazebo_workspace/dev_ws/install/setup.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/ros_gazebo_workspace/dev_ws/install/local_setup.zsh'
+[1.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/ros_gazebo_workspace/dev_ws/install/setup.zsh'

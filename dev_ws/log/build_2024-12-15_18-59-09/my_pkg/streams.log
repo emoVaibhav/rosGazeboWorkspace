@@ -1,0 +1,38 @@
+[0.505s] Invoking command in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build install --record /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log --install-scripts $base/lib/my_pkg --single-version-externally-managed install_data
+[0.671s] /home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.672s]   warnings.warn(
+[0.690s] running egg_info
+[0.691s] writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO
+[0.691s] writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt
+[0.691s] writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt
+[0.691s] writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt
+[0.691s] writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt
+[0.693s] reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[0.694s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.694s] copying my_pkg/Car_control.py -> /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg
+[0.694s] running install
+[0.694s] running install_lib
+[0.695s] copying /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build/lib/my_pkg/Car_control.py -> /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[0.696s] byte-compiling /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/Car_control.py to Car_control.cpython-310.pyc
+[0.696s] running install_data
+[0.696s] running install_egg_info
+[0.698s] removing '/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.698s] Copying ../../build/my_pkg/my_pkg.egg-info to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info
+[0.698s] running install_scripts
+[0.713s] Installing Car_control script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.713s] Installing add_client script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.713s] Installing add_service script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.713s] Installing frame_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.713s] Installing img_saver script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.713s] Installing listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing my_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing param_node script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing pose_subscriber script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing static_tf2_broadcaster script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing talker script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing tf2_dist_calculator script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] Installing tf2_listener script to /home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/my_pkg
+[0.714s] writing list of installed files to '/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log'
+[0.740s] Invoked command in '/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg' returned '0': PYTHONPATH=/home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/build install --record /home/vd/ros_gazebo_workspace/dev_ws/build/my_pkg/install.log --install-scripts $base/lib/my_pkg --single-version-externally-managed install_data

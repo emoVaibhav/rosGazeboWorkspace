@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages",
+        "/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages",
+        "/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

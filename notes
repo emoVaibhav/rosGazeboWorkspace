@@ -1,0 +1,224 @@
+# NODES
+# List nodes
+ros2 node list
+# Run a node
+# Add parameters and remapping with '--ros-args'
+# Remapping can be used to rename topics
+ros2 run node_package node_name --ros-args -p param_name:=param_value -r topic_name:=new_topic_name
+# Node Namespacing
+# Use -r __ns:=/namespace_name
+# This appends a '/namespace_name' to all node topics
+
+
+# TOPICS
+# List topics
+ros2 topic list
+# See topic messages
+ros2 topic echo /topic-name --no-arr
+# Publish message to topic
+ros2 topic pub /topic-name std_msgs/msg/Int32 "data: 51"
+# Check topic info
+ros2 topic info /topic_name --verbose
+
+
+# SERVICES
+# Client-Server type communication
+# List services
+ros2 service list
+
+# LAUNCH FILES
+# Launch files are Python scripts that make running & configuring nodes easier.
+# Run a lauch file
+ros2 launch lauch_file_name.launch.py
+
+# PACKAGES & DEPENDENCIES
+# Underlay: /opt/ros is created and packages are listed under directories corresponding to the current ros2 distribution.
+# E.g. /opt/ros/foxy
+# Overlay: Project-specific packages. `colcon` can be used to build a workspace.
+# colcon takes source files from ./src/ builds them into ./build and installs them into ./install
+
+# WORKSPACE SETUP
+# Create dir
+mkdir ~/dev_ws
+cd ~/.dev_ws
+# Build empty workspace
+colcon build --symlink-install
+# Creating a Package
+mkdir src && cd src
+ros2 pkg create --build-type ament_cmake package_name
+# Create launch files
+cd package_name/
+mkdir launch
+# Sample launch file
+cat <<EOF > ./launch/talker.launch.py  
+
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='demo_nodes_cpp',
+            executable='talker'
+        )
+    ])
+EOF
+
+# Update CMakeList to install the launch files 
+# add before "ament_package()"
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# Update package.xml
+# add within <package></package>
+<exec_depend>demo_nodes_cpp</exec_depend>
+
+# Build package
+colcon build --symlink-install
+
+# Source setup.bash
+cd ../../
+source install/setup.bash
+
+# Launch node(s) from launch file
+ros2 launch package_name talker.launch.py
+
+
+# ROS TRANSFORMS
+# TF2 Library
+# - Static Transforms
+# - Dynamic Transforms
+
+# Broadcasting Transforms
+# Static Transform Broadcaster: Broadcast transform from parent_frame to child_frame
+ros2 run tf2_ros static_transform_publisher x y z yaw pitch roll parent_frame child_frame
+# Dynamic Transforms
+# Extra Packages
+sudo apt install ros-galactic-xacro ros-galactic-joint-state-publisher-gui
+# ros node "robot_state_publisher" can take in a URDF file and broadcast all the transforms from it
+# - Fixed joint transforms to /tf_static
+# - Non-fixed joint transforms to /tf
+# - Copy of urdf file to /robot_description
+# It subscribes to a topic /joint_states to obtain information about the state 
+# of each joint such that it can correctly compute dynamic transforms
+# joint_state_publisher_gui helps us to simulate joint state messages.
+
+# Launch robot_state_publisher
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro ./sample.urdf.xacro )"
+
+# Launch joint_state_publisher_gui
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+# Debug TF with view_frames
+ros2 run tf2_tools view_frames.py
+
+
+# VISUALIZATION
+# Launch rviz2
+ros run rviz2 rviz2
+
+
+# URDF
+# General Description
+
+# XML Version
+<?xml version="1.0" ?>
+# Root Tag
+<robot name="robot_name">
+
+# Link Tags
+<link name="link_name">
+# Visual Properties
+<visual>
+# Link Shape
+<geometry></geometry>
+# Offset for Geometry from Link's origin
+<origin></origin>
+# Color
+<material></material>
+</visual>
+
+# Collision: For Physics Collision calculations
+<collision>
+<geometry></geometry>
+<origin></origin>
+</collision>
+
+# Inertial: For Physics Calculations. How the link responds to forces
+<inertial>
+# Mass
+<mass></mass>
+# Center of mass/gravity
+<origin></origin>
+# Inertia: Rotationa inertia matrix
+<inertia></inertia>
+</inertial>
+
+</link>
+
+# Joint Tags
+<joint name="joint_name" type="joint_type">
+
+<parent link="parent_link" />
+<child link="child_link" />
+# xyz: Cartesian Coords; rpy: Roll-Pitch-Yaw
+<origin xyz="0.25 0 0.15" rpy="0 0 0" />
+
+# For non-fixed joint, the following are (may be) required
+# Axis about which the joint moves
+<axis xyz="0 -1 0" />
+# lower & upper position limits (metres or radians)
+# velocity (m/s or rad/s)
+# effort (N or Nm)
+<limit lower="0" upper="${pi/2}" velocity="100" effort="100" />
+
+</joint>
+
+</robot>
+
+
+
+# Using XACRO (XML-Macros)
+# To use xacro in URDF, we edit out <robot> tag as:
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_name" >
+# How to include a xacro in another xacro
+# For the parent file:
+<xacro:include filename="my_other_xacro_file.xacro" />
+# A good extension for the main urdf file would be *.urdf.xacro
+# Features of xacro:
+#	1. Properties: Define values and reuse them elsewhere with: ${property_name}
+<xacro:property name="arm_radius" value="0.5"/>
+...
+<cylinder radius="${arm_radius}" length="7" />
+# 	2. Mathematical Operators & constants (pi)
+<cylinder length="${4*arm_radius + pi}">
+#	3. Macros: Templates
+# Template: a '*' prefixed parameter represents a <xacro:inertial_box>
+<xacro:macro name="inertial_box" params="mass x y z *origin">
+	<inertial>
+		<xacro:insert_block name="origin" />
+		<mass value="${mass}" />
+		<inertia ixx="${(1/12) * mass * (y+y+z*z)}" ... />
+	</inertial>
+</xacro:macro>
+# Usage: The template defined above can be used elsewhere as:
+<xacro:inertial_box mass="12" x="2" y="3" z="4">
+	<origin xyz=" 0 2 4" rpy="0 0 0" />
+</xacro:inertial_box>
+
+# xacro URDF workflow: Can be automated in a launch file
+_____________________________     __________________     
+|single/multiple xacro files| --> |xacro executable| 
+-----------------------------     ------------------
+	    _______________________     ____________________
+	--> |robot_state_publisher| --> |/robot_description|
+            -----------------------     --------------------
+
+
+
+
+
+# Naming Convensions
+# _link suffix for links
+# _joint suffix for joints

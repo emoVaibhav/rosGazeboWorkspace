@@ -1,0 +1,1 @@
+/home/vd/ros_gazebo_workspace/dev_ws/src/my_pkg/launch/parameters_node_launcher.launch.py

@@ -1,0 +1,16 @@
+[console_scripts]
+Car_control = my_pkg.Car_control:main
+Car_control_UGV = my_pkg.car_control_copy:main
+add_client = my_pkg.client_member_function:main
+add_service = my_pkg.service_member_function:main
+frame_tf2_broadcaster = my_pkg.frame_tf2_broadcaster:main
+img_saver = my_pkg.img_saver:main
+listener = my_pkg.subscriber_member_function:main
+my_node = my_pkg.my_node:main
+param_node = my_pkg.parameters_node:main
+pose_subscriber = my_pkg.pose_subscriber:main
+static_tf2_broadcaster = my_pkg.static_tf2_broadcaster:main
+talker = my_pkg.publisher_member_function:main
+tf2_dist_calculator = my_pkg.tf2_dist_calculator:main
+tf2_listener = my_pkg.tf2_listener:main
+

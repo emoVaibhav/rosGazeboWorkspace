@@ -1,0 +1,9 @@
+/home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+  File "/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/Car_control.py", line 28
+    if 
+       ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,15 @@
+digraph G {
+"simple_car/camera_link" -> "simple_car/camera_link/camera"[label=" Broadcaster: default_authority\nAverage rate: 78.462\nBuffer length: 1.899\nMost recent transform: 1263.064\nOldest transform: 1261.165\n"];
+"simple_car" -> "simple_car/camera_link"[label=" Broadcaster: default_authority\nAverage rate: 63.358\nBuffer length: 1.894\nMost recent transform: 1263.064\nOldest transform: 1261.17\n"];
+"simple_car" -> "simple_car/caster"[label=" Broadcaster: default_authority\nAverage rate: 407.446\nBuffer length: 1.934\nMost recent transform: 1263.099\nOldest transform: 1261.165\n"];
+"car_world" -> "simple_car"[label=" Broadcaster: default_authority\nAverage rate: 175.669\nBuffer length: 1.907\nMost recent transform: 1263.072\nOldest transform: 1261.165\n"];
+"simple_car" -> "simple_car/chassis"[label=" Broadcaster: default_authority\nAverage rate: 257.143\nBuffer length: 1.925\nMost recent transform: 1263.09\nOldest transform: 1261.165\n"];
+"simple_car" -> "simple_car/right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 132.154\nBuffer length: 1.922\nMost recent transform: 1263.092\nOldest transform: 1261.17\n"];
+"simple_car" -> "simple_car/left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 96.621\nBuffer length: 1.894\nMost recent transform: 1263.064\nOldest transform: 1261.17\n"];
+"car_world" -> "capsule"[label=" Broadcaster: default_authority\nAverage rate: 430.826\nBuffer length: 1.901\nMost recent transform: 1263.099\nOldest transform: 1261.198\n"];
+"capsule" -> "capsule/capsule_link"[label=" Broadcaster: default_authority\nAverage rate: 597.054\nBuffer length: 1.901\nMost recent transform: 1263.1\nOldest transform: 1261.199\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1734363605.6782107"[ shape=plaintext ] ;
+}->"car_world";
+}

@@ -1,0 +1,7 @@
+/home/vd/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+  File "/home/vd/ros_gazebo_workspace/dev_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/car_control_copy.py", line 16
+    global angular_z
+    ^^^^^^^^^^^^^^^^
+SyntaxError: name 'angular_z' is parameter and global
+
